@@ -1,7 +1,8 @@
 const DataService = {
     // 1. ONLINE: The "Live" Links (For updates without reinstalling APK)
     // REPLACE [YOUR_USERNAME] WITH YOUR ACTUAL GITHUB USERNAME
-    onlineBase: 'https://raw.githubusercontent.com/AncientDom/English-pro/EnglishProWeb/new/main/public_db/',
+    // Update this line in EnglishProWeb/assets/js/dataService.js
+onlineBase: 'https://raw.githubusercontent.com/AncientDom/English-pro/main/EnglishProWeb/public_db/',
     
     // 2. OFFLINE: The "Local" backup files bundled inside the APK
     localBase: './public_db/',
